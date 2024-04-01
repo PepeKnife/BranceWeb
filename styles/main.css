@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 2em 3em;
+}
+
+ul {
+    list-style: none;
+}
+
+strong {
+    color: #142F52;
+}
+
+a, a p {
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    padding: 1em 2em;
+    background-color: #142F52;
+    border-radius: 10px;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+}
+
+i {
+    font-size: 2.5em;
+}
+
+hr {
+    width: 70%;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 3.5em;
+    color: #4D4D4D;
+}
+
+h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 2.8em;
+    color: #4D4D4D;
+}
+
+h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 700;
+    font-size: 1.7em;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+h4 {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #FFF;
+    background-color: #142F52;
+}
+
+.img {
+    width: 50% ;
+    height: 100%;
+}
+
+/*HOME*/
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+
+    height: 90vh;
+    background-color: #F5F7FA;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 23px;
+}
+
+#inicio .img {
+    background: url("../imgs/1.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*Empresas con las q trabajamos*/
+#confianza {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+#confianza ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/*SERVICIOS*/
+
+#servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+}
+
+#servicios h2 {
+    text-align: center;
+}
+
+#servicios ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3em;
+}
+
+#servicios ul li {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#servicios ul li p {
+    text-align: center;
+}
+
+#servicios ul i {
+    color:#287FE3 ;
+}
+
+/*EFECTIVIDAD*/
+#efectividad {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+}
+
+#efectividad .img {
+    background: url("../imgs/2.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 70vh;
+}
+
+/*STATS*/
+#stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+    gap: 25%;
+}
+
+.container-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4em;
+}
+
+#stats div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em; 
+}
+
+#stats div ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#stats div ul li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/*Personalizado*/
+#personalizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+#personalizado .img {
+    background: url("../imgs/3.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:70%;
+    height: 50vh;
+}
+
+#personalizado .text {
+    width: 100%;
+}
+
+/*TESTIMONIOS*/
+#testimonios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+}
+
+#testimonios h2 {
+    text-align: start;
+    width: 100%;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.testimonio {
+    width: 300px;
+    height: 300px;
+    background-color: #4D4D4D;
+    margin-bottom: 1em;
+}
+
+/*CALENDARIO*/
+#calend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+#calend a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#calend a i {
+    font-size: 1.4em;
+}
+
+#calend a p {
+    padding: 0;
+}
+
+/*FOOTER*/
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+    background-color: #142F52;
+}
+
+#footer img {
+    height: 10vh;
+}
+
+#footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+#footer ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFF;
+    padding: 0.6em;
+    border-radius: 100px;
+}
+
+#footer i {
+    color: #142F52;
+}
+
+/*VISTA MOBILE*/
+@media (max-width: 600px) {
+    .container {
+        padding: 1em 2em;
+    }
+
+    a, a p{
+        font-size: 0.9em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    i {
+        font-size: 2em;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    h4 {
+        font-size: 1em;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #inicio {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text {
+        align-items: center;
+        text-align: center;
+    }
+
+    /*CONFIANZA*/
+    #confianza {
+        text-align: center;
+    }
+
+    /*Servicios*/
+    #servicios ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #servicios ul li {
+        width: 100%;
+    }
+
+    /*EFECTIVIDAD*/
+    #efectividad {
+        flex-direction: column;
+    }
+
+    /*STATS*/
+    #stats {
+        flex-direction: column;
+        gap:2em;
+    }
+
+    /*PERSONALIZADO*/
+    #personalizado {
+        flex-direction: column-reverse;
+        gap: 1em;
+    }
+
+    #personalizado .img {
+        width: 100%;
+    }
+
+    /*TESTIMONIOS*/
+    #testimonios h2 {
+        text-align: center;
+    }
+
+    .up {
+        flex-direction: column;
+    }
+
+    .testimonio {
+        width: 150px;
+        height: 150px;
+    }
+
+    /*FOOTER*/
+    #footer img {
+        height: 6vh;
+    }
+
+    #footer ul {
+        gap: 2em;
+    }
+
+    #footer ul li i {
+        font-size: 1.3em;
+    }
+}
