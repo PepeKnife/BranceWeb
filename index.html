@@ -9,9 +9,39 @@
 </head>
 <body>
     <!--NAVBAR-->
-    <nav>
-        <h2>Para despues</h2>
+    <nav class="container">
+        <div class="nav-logo"></div>
+
+            <div class="desk">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#efectividad">Efectividad</a></li>
+                    <li>
+                        <a href="./calendly.html" class="btn-cta">
+                            <p>Agenda tu llamada</p> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile">
+                <i class="fa-solid fa-bars" id="abrir"></i>
+                <i class="fa-solid fa-x" id="cerrar"></i>
+            </div>   
     </nav>
+
+    <div class="display container" id="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Efectividad</a></li>
+            <li>
+                <a href="./calendly.html" class="btn-cta">
+                    <p>Agenda tu llamada</p> 
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <!--Hero-->
     <section id="inicio" class="container">
@@ -132,7 +162,7 @@
 
     <section class="container" id="calend">
         <h2><strong>Diseñando experiencias, <br>impulsando crecimiento</strong></h2>
-        <a href="#" class="btn-cta">
+        <a href="./calendly.html" class="btn-cta">
             <p>Agenda tu llamada</p> 
             <i class="fa-solid fa-arrow-right"></i>
         </a>
@@ -148,6 +178,8 @@
         <hr>
         <h4>© 2024 Brance | All Rights Reserved</h4>
     </section>
+
+    <script src="./app/main.js"></script>
 
 </body>
 </html>
